@@ -82,4 +82,18 @@ dependencies {
 
     //CoreUI module
     implementation(project(":core_ui"))
+
+    implementation(project(":data"))
+
+    implementation(project(":core"))
+
+    implementation(project(":domain"))
+
+    // Networking
+    val retrofit_version = "2.9.0"
+    val okhttp_version = "4.7.2"
+    implementation ("com.squareup.retrofit2:converter-gson:$retrofit_version")
+    implementation ("com.squareup.retrofit2:retrofit:$retrofit_version")
+    implementation ("com.squareup.okhttp3:okhttp:$okhttp_version")
+    implementation ("com.squareup.okhttp3:logging-interceptor:$okhttp_version")
 }

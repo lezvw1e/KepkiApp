@@ -51,4 +51,9 @@ dependencies {
     implementation (Dependencies.LiveData.lifecycleLiveData)
     implementation (Dependencies.LiveData.lifecycleRuntime)
 
+    //Core module
+    implementation(project(":core"))
+
+    implementation(project(":app"))
+
 }
