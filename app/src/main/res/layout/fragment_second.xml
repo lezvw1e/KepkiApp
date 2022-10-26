@@ -95,12 +95,11 @@
 
     <com.google.android.material.button.MaterialButton
         app:layout_constraintTop_toBottomOf="@id/confirm_pass"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="20dp"
         android:id="@+id/materialButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
-        android:layout_marginBottom="40dp"
         android:backgroundTint="@color/white"
         android:padding="20dp"
         android:text="@string/registration"
@@ -113,7 +112,7 @@
     <RelativeLayout
         app:layout_constraintTop_toBottomOf="@id/materialButton"
         android:id="@+id/divider_container"
-        android:layout_marginTop="@dimen/view_height"
+        android:layout_marginTop="@dimen/twenty_dp"
         android:layout_marginBottom="@dimen/div_container_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -150,13 +149,14 @@
 
 
     <ImageView
+        android:layout_marginTop="@dimen/twenty_dp"
+        app:layout_constraintTop_toBottomOf="@id/divider_container"
         android:id="@+id/facebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="40dp"
         android:src="@drawable/face_book"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"

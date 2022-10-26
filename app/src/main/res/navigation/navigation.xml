@@ -104,4 +104,8 @@
         android:id="@+id/mainActivity"
         android:name="com.example.kepkiapp.MainActivity"
         android:label="MainActivity" />
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.example.core_ui.BaseFragment"
+        android:label="BaseFragment" />
 </navigation>
